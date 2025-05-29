@@ -15,7 +15,7 @@
             if($order) {
                 echo "昇順にソートします<br>";
                 sort($array); 
-                foreach ($nums as $num) {
+                foreach ($array as $num) {
                     echo "{$num}<br>";
                 } 
             } else {
