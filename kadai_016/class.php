@@ -25,8 +25,8 @@ class Animal {
     }
 }
 $food = new Food('pateto',250);
-$Animal = new Animal('dog',60,5000);
+$animal = new Animal('dog',60,5000);
 
-print_r($food -> show_price());
-print_r($Animal -> show_height());
+$food -> show_price();
+$animal -> show_height();
 ?>
