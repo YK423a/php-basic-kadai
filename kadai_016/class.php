@@ -18,6 +18,9 @@ class Animal {
         $this->weight =$weight;
     }
 }
-show_price('pateto',250);
-show_height('dog',60,5000);
+$food = new Food();
+$Animal = new Animal();
+
+print_r($food -> show_price('pateto',250));
+print_r($Animal -> show_height('dog',60,5000));
 ?>
